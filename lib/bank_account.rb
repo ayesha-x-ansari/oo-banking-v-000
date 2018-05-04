@@ -8,13 +8,13 @@ class BankAccount
     @status = "open"
     @balance = 1000
   end
-  
+
 
   def deposit(deposit_amount)
     @balance += deposit_amount
   end
 
   def display_balance
-    "Your balance is #{balance}."
+    "Your balance is $#{balance}."
   end
 end
